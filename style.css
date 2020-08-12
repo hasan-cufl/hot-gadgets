@@ -1,0 +1,64 @@
+body{
+    margin-top: 10px;
+}
+.container{
+    margin-bottom: 100px;
+}
+.bg-light{
+    background-color: white !important;
+}
+.carousel-indicators li {
+    background-color: rgb(235, 100, 10);
+    width: 30px;
+    height: 5px;
+}
+.row{
+    align-items: center;
+}
+.first-row{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+.buy-button{
+    border: none;
+    color:#fff;
+    background-color: black;
+    padding: 9px 25px;
+    border-radius: 10px;
+}
+section{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position-y: 45vh;
+    background-size: 10%;
+}
+.section-heading{
+    margin-bottom: 45px;
+}
+h4{
+    color: orange;
+}
+.card{
+    border: none;
+    box-shadow: 4px 4px 10px lightgray;
+}
+.card-footer{
+    border-top: none;
+    background-color: #fff;
+    text-align: center;
+}
+.category{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.cat-1, .cat-2, .cat-3{
+    height: 230px;
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 13px lightgrey; 
+}
+.cat-2{
+    margin-bottom: 20px;
+}
